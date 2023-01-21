@@ -1,3 +1,4 @@
+#EXERCICIO PAR E IMPAR, PERDI UM NUMERO E INFORMA SE O NUMERO É PAR OU IMPAR
 num = input("Digite um numero inteiro: ")
 
 restoDiv = int(num) % 2
