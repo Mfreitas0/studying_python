@@ -3,4 +3,4 @@
 usuario = input("Qual seu nome? ")
 qtd_carecteres = len(usuario)
 
-print(usuario, qtd_carecteres, type(usuario))
+print(usuario, qtd_carecteres, type(usuario)) 
