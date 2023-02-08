@@ -20,11 +20,11 @@ for valor in lista_1:
     if qtd_vezes > contagem:
         contagem = qtd_vezes
         palavra = valor
-        
+
 print(f'A plavra que apareceu mais vezes é {palavra}')
 print()
 
-#JOIN -  NORMALMENTE USADA PARA TRANSFORMAR UMA LIST EM UMA STRING
+# JOIN -  NORMALMENTE USADA PARA TRANSFORMAR UMA LIST EM UMA STRING
 print('JOIN')
 frase = 'O Brasil é penta.'
 lista_3 = frase.split(' ')
@@ -37,6 +37,25 @@ print(string2)
 print()
 
 
-#ENUMERATE
+# ENUMERATE
 print('ENUMERATE')
 
+outraLista = [
+    [1, 2],
+    [3, 4],
+    [5, 6],
+]
+
+for v in enumerate(outraLista):
+    print(v)
+    
+
+listaIndice = [
+    [0, 'Marcos'],
+    [1,'Maria'],
+    [2,'Macarrão']
+]
+    
+for indice, valor in listaIndice: #É EXATAMENTE OQUE A FUNCAO ENUMERATE FAZ
+    print(indice, valor)
+print('enumurete() = Desempacotamento de valores')
