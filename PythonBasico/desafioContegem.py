@@ -9,16 +9,20 @@ for / while
 """
 
 a = 0
-b= 10
+b = 10
 
 while a < 10:
     a += 1
-    
-    
+
     while b > 0:
         b -= 1
         print(a, b)
         break
 
 print('Fim!')
-        
+print()
+
+
+# RES
+for p, r in enumerate(range(10, 1, -1)):
+    print(p, r)
